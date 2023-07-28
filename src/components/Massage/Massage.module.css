@@ -1,0 +1,25 @@
+.wrapper_message {
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 10rem;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    background: #fff;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.messages {
+    font-size: 2rem;
+}
+
+.display_none {
+    /* display: none; */
+    top: -100px;
+    transition: .5s
+}

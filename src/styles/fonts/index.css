@@ -1,0 +1,41 @@
+/* ProductSans */
+
+@font-face {
+    src: url("../../assets/fonts/ProductSans/ProductSansRegular.ttf");
+    font-family: "ProductSans";
+    /* 400 */
+}
+
+@font-face {
+    src: url("../../assets/fonts/ProductSans/ProductSansItalic.ttf");
+    font-family: "ProductSans-Italic";
+    /* 400 Italic */
+}
+
+@font-face {
+    src: url("../../assets/fonts/ProductSans/ProductSansMedium.ttf");
+    font-family: "ProductSans-Medium";
+    /* 500 */
+}
+
+@font-face {
+    src: url("../../assets/fonts/ProductSans/ProductSansBold.ttf");
+    font-family: "ProductSans-Bold";
+    /* 700 */
+}
+
+@font-face {
+    src: url("../../assets/fonts/ProductSans/ProductSansBoldItalic.ttf");
+    font-family: "ProductSans-BoldItalic";
+    /* 700 Italic*/
+}
+
+@font-face {
+    src: url("../../assets/fonts/Roboto/Roboto-Regular.ttf");
+    font-family: "Roboto-Regular";
+}
+
+@font-face {
+    src: url("../../assets/fonts/Roboto/Roboto-Medium.ttf");
+    font-family: "Roboto-Medium";
+}

@@ -1,0 +1,49 @@
+.wrapper_table {
+    font-size: 2rem;
+    background: #fff;
+    border-collapse: collapse;
+    max-width: 50vw;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 1.5rem;
+}
+
+.btn_add_user {
+    background: #fff;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+
+.header {
+    background: rgb(34, 172, 41);
+    color: #fff;
+}
+
+.header th {
+    padding: 15px 10px;
+}
+
+.wrapper_table tr td {
+    padding: 10px;
+}
+
+.wrapper_table tbody {
+    display: block;
+    max-height: 490px;
+    /* overflow: auto; */
+}
+
+.wrapper_table thead tr th {
+    text-align: start;
+}
+
+.wrapper_table thead tr,
+.wrapper_table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+
+

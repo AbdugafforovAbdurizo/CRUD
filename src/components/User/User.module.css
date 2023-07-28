@@ -1,0 +1,18 @@
+.delete,
+.edit {
+    border-radius: 3px;
+    color: #fff;
+}
+
+.delete {
+    padding: 0.5rem 1rem;
+    font-size: 1.8rem;
+    background: rgb(238, 51, 51);
+}
+
+.edit {
+    background: rgb(211, 198, 13);
+    width: 100%;
+    font-size: 2rem;
+    padding: 0.5rem 1.5rem;
+}
