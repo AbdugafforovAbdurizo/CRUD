@@ -37,7 +37,7 @@ function Index() {
 
 
     const handleOnSubmit = (data) => {
-        console.log(data)
+        // console.log(data)
         const jsonData = JSON.stringify({
             first_name: data.firstName,
             last_name: data.lastName,

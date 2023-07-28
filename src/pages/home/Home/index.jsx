@@ -48,7 +48,7 @@ function Index() {
 
     useEffect(() => {
 
-        fetch(`https://crud11.pythonanywhere.com/employee/?page_size=5&p=2`)
+        fetch(`https://crud11.pythonanywhere.com/employee/?page_size=2&p=2`)
             .then(res => res.json())
             .then(res => setData(res))
 
@@ -97,7 +97,7 @@ function Index() {
     }
 
     const handleEdit = (id) => {
-        const user = data.find(user => user.id === id)
+        const user = data.results.find(user => user.id === id)
         reset({
             name: user.first_name,
             surname: user.last_name,
